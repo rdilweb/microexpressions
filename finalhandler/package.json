@@ -1,0 +1,36 @@
+{
+  "name": "@microex/finalhandler",
+  "description": "Node.js final http responder [Microexpressions fork]",
+  "version": "5.0.0",
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "Reece Dunham <me@rdil.rocks> (https://me@rdil.rocks)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdilweb/microexpressions",
+    "directory": "finalhandler"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "on-finished": "^2.4.1",
+    "statuses": "^2.0.1",
+    "unpipe": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.22"
+  },
+  "files": [
+    "lib/",
+    "LICENSE",
+    "index.js",
+    "index.d.ts"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@microex/body-parser",
+  "description": "Node.js body parsing middleware [Microexpressions fork]",
+  "version": "5.0.0",
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+    "Reece Dunham <me@rdil.rocks> (https://me@rdil.rocks)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdilweb/microexpressions",
+    "directory": "body-parser"
+  },
+  "types": "index.d.ts",
+  "dependencies": {
+    "@hapi/bourne": "^2.0.0",
+    "bytes": "^3.1.2",
+    "content-type": "^1.0.4",
+    "http-errors": "1.8.1",
+    "iconv-lite": "^0.6.3",
+    "on-finished": "^2.4.1",
+    "raw-body": "2.4.2",
+    "unpipe": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.22"
+  },
+  "files": [
+    "lib/",
+    "LICENSE",
+    "index.js",
+    "index.d.ts"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

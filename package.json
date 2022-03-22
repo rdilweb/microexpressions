@@ -1,0 +1,25 @@
+{
+  "name": "@microex/monorepo",
+  "version": "5.0.0",
+  "description": "A monorepo containing forks of the express.js family of packages.",
+  "repository": "https://github.com/rdilweb/microexpressions.git",
+  "author": "Reece Dunham <me@rdil.rocks>",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "@types/node": "^17.0.22",
+    "prettier": "^2.6.0",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "prettier": "prettier --write \"**/*\".{js,json}"
+  },
+  "prettier": {
+    "semi": false
+  },
+  "workspaces": [
+    "body-parser",
+    "finalhandler"
+  ]
+}
